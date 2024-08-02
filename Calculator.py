@@ -15,4 +15,4 @@ c = op.strip() #We used strip to get rid of spaces in input
 if c == "+" or c == "-" or c == "/" or c == "*" :
     print(cal(c))
 else: 
-    print("Please try again")
+    print("Please try again") #new note
