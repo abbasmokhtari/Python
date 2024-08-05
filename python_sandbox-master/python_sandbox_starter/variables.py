@@ -25,7 +25,7 @@ x, y, name, is_cool = (1, 2.5, 'John', True)
 
 print(x, y, name, is_cool)
 
-#I we wanted to chand the type of variable also known as Casting
+#I we wanted to chang the type of variable also known as Casting
 x = str(x)
 y = int(y)
 z = float(y)

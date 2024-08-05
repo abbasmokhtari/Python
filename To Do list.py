@@ -27,7 +27,6 @@ while item.lower() != 'q':
             f.close()
             break
     
-            
         print(items)
    
         

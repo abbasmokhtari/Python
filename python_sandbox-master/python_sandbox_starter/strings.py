@@ -55,3 +55,13 @@ print(s.split())
 
 # Find Position
 print(s.find('h'))
+
+
+# Is all alphanumeric -- in this example it gives False because there is space between hello and world
+print(s.isalpha())
+
+# Is all alphabetic -- in this example it gives False because there is space between hello and world
+print(s.isalpha())
+
+# Is all numeric 
+print(s.isnumeric())
