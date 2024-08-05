@@ -3,7 +3,7 @@
 name = "Abbas"
 age = 44
 
-#concatinate we have to cast everything into string
+#concatenate we have to cast everything into string
 
 print('Hello my name is ' + name + ' and I am ' + str(age))
 
@@ -11,10 +11,10 @@ print('Hello my name is ' + name + ' and I am ' + str(age))
 
 # String Formatting
 
-# Arguments Formating
+# Arguments Formatting
 print('My name is {name} and I am {age}'.format(name=name, age=age))
 
-# F-String only availabel in Pytong version 3.6 above
+# F-String only available in Python version 3.6 above
 print(f'Hello, My name is {name} again and I am {age}')
 
 # String Methods
