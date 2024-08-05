@@ -4,7 +4,7 @@
 fruits = ('Apple', 'Oranges', 'Grapes')
 
 # We can also use a constructor
-fruits2 = tuple(('Apples', '`oranges', 'Grapes'))
+fruits2 = tuple(('Apples', 'Oranges', 'Grapes'))
 
 # If there is without comma Python treats it as string
 
