@@ -1,6 +1,6 @@
 # If/ Else conditions are used to decide to do something based on something being true or false
 
-x = 3
+x = 12
 y = 12
 
 # Comparison Operators (==, !=, >, <, >=, <=) - Used to compare values
@@ -55,3 +55,10 @@ if y not in numbers:
 
 
 # Identity Operators (is, is not) - Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+# is
+if x is y:
+    print(x is y)
+
+if x is not y:
+    print(x is not y)
