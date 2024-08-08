@@ -1,5 +1,9 @@
 # int orther to create a virtual environment we can run this command: python3 -m venv venv
 # after venv folder is created we have to run "actovate" file under venv=>bin by running this command: source venv/bin/activate
+# python -m venv myenv
+#source myenv/bin/activate
+#pip install pyaudio
+
 # now we need to select an interpreter in VScode => cmd+shift+P and serach for python and select interpreter 
 # now we need to install dependencies: first is speech recognition : pip install speechrecognition
 #this is a library for speech recognition and documentation can be found on pypi.org/project/speechrecognition
