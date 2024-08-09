@@ -1,9 +1,14 @@
 print('Welcome to my quiz!')
 
-playing = input('Do you want to play? ')
 
-if playing.lower() not in ['yes', 'y']:
-    quit()
+while True:
+    playing = input('Do you want to play?(yes/no) ')
+    if playing.lower() == 'yes':
+        break
+    elif playing.lower() == 'no':
+        quit()
+    else:
+        print('Answer with yes or no')
 
 print("Ok let's play")
 score = 0
@@ -19,7 +24,7 @@ else:
 
 answer = input('What does GPU stand for? ')
 
-if answer.lower() == 'Graphics processing unit':
+if answer.lower() == 'graphics processing unit':
     print('correct')
     score += 1
 else:
